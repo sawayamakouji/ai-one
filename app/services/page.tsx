@@ -26,12 +26,12 @@ export default function ServicesPage() {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    if (store === null) {
-      console.error("SteinStore is not initialized due to missing NEXT_PUBLIC_STEIN_URL.");
-      return;
-    }
-
     async function fetchServices() {
+      if (store === null) {
+        console.error("SteinStore is not initialized due to missing NEXT_PUBLIC_STEIN_URL.");
+        return;
+      }
+
       try {
         setIsLoading(true);
         const data = await store.read("Sheet1") as Service[];
@@ -83,7 +83,6 @@ export default function ServicesPage() {
         <p className="text-gray-700">データがありません</p>
       )}
 
-      {/* モーダル */}
       {selectedService && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg shadow-lg p-6 max-w-md w-full relative">
