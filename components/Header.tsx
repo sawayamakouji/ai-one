@@ -25,7 +25,7 @@ export default function Header() {
           </li>
           <li>
             <Link href="/resources/links" className="text-gray-700 hover:text-gray-900 transition-colors">
-              おすすめリンク
+              その他
             </Link>
           </li>
         </ul>

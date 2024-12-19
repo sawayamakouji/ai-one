@@ -20,7 +20,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </div>
         <footer className="py-6 border-t text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} デジタル革命ぐん
+        &copy; {new Date().getFullYear()} デジタル革命ぐん
+        
         </footer>
       </body>
     </html>
