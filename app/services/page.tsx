@@ -51,7 +51,7 @@ export default function ServicesPage() {
       <h2 className="text-3xl font-bold mb-6 text-gray-900">AIサービス紹介</h2>
       <p className="text-gray-700 mb-8">
         ここでは、様々な生成AIツールを紹介します。  
-        画像生成、文章生成、音声編集、動画制作など幅広い分野をカバー予定です。
+        画像生成、文章生成、音声編集、動画制作など幅広い分野をカバー予定ですな。
       </p>
 
       {isLoading ? (
