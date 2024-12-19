@@ -74,7 +74,7 @@ export default function LinksPage() {
                   rel="noopener noreferrer"
                   className="text-blue-400 underline text-xs block mt-1"
                 >
-                  参考リンクはこちら
+                  参考
                 </a>
               )}
             </li>
