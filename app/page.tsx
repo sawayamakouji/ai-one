@@ -14,7 +14,8 @@ export default function Home() {
           生成AI（ジェネレーティブAI）とは:<br></br>コンピューターが学習したデータを元に、新しいデータやコンテンツを生成する人工知能（AI）です。従来のAIが決められた行為を自動化するのに対し、生成AIはデータから学習したパターンや関係性を活用して、テキスト、画像、動画、音声など多岐にわたるコンテンツを生成できます。<br></br>
 
            生成AIの活用は、知的創造をより広い可能性へと拡張します。<br></br>本サイトでは、厳選されたサービスの概要、洗練されたプロンプト例、<br></br>そして有益な外部リソースを提示し、深い理解と応用を支援いたします。<br></br>そのように頑張ります。<br></br>というか無料のやつばかりだからとりあえず触る事っす<br></br>使ってもみないで良さはわからんです<br></br>素人でもアイデアをサクッと具現化出来魔法のような体験<br></br>超賢い24時間働く相棒<br></br>パラダイムシフト！
-
+         <Link href="https://forms.gle/cbvGDiSEYFRbJr6b7" className="block bg-white p-6 rounded-lg shadow hover:shadow-md transition-shadow">
+            <h4 className="text-xl font-semibold mb-2">感想ご意見お待ちしていまーす✌</h4>
           </p>
         </div>
       </div>
